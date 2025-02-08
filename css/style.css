@@ -22,10 +22,10 @@ body {
   max-width: 1200px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
+
+
+
+
 
 /* Stylowanie menu */
 
@@ -89,9 +89,32 @@ main div {
 */
 
 /* Article */
+
+/* @font-face {
+  font-family: 'Roboto';
+  src: url(https://fonts.google.com/specimen/Roboto); */
+
 article {
   width: 70%;
   padding: 20px;
+  background-color: bisque;
+}
+
+article img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+article h1 {
+  color: red;
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ article p {
+  text-align: justify;
+  font-size: 20px;
+  font-family: 
 }
 
 /* Aside */
