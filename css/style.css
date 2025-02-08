@@ -1,6 +1,6 @@
 /* Stylowanie od ogółu czyli od container */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap");
 
 /* *{
     box-sizing: border-box;
@@ -11,7 +11,7 @@
 body {
   margin: 10px 0;
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 #container {
@@ -77,7 +77,6 @@ main {
   display: flex;
 }
 
-
 main div {
   display: flex;
   width: calc(100% - 200px);
@@ -109,6 +108,7 @@ article h1 {
 }
 
 /* Aside */
+
 aside {
   width: 30%;
   max-width: calc(100% - 200px);
@@ -138,7 +138,7 @@ aside {
 }
 
 .widget {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .widget img {
@@ -146,7 +146,10 @@ aside {
   padding: 0 10px 5px 0;
   /* border: 5px dashed red; */
 }
-
+.button {
+  display: flex;
+  justify-content: center;
+}
 .links ul {
   list-style-type: square;
   margin-left: 20px;
@@ -155,6 +158,19 @@ aside {
 
 .links ul li {
   margin-bottom: 10px;
+}
+
+h3 {
+  font-family: "Papirus", fantasy;
+}
+
+aside button:hover {
+  color: white;
+  background-color: black;
+}
+
+aside p {
+  text-align: justify;
 }
 
 /* Footer */
@@ -168,3 +184,4 @@ footer {
 footer p {
   margin: 0;
 }
+
