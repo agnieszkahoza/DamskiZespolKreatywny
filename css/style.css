@@ -23,7 +23,10 @@ body {
 }
 
 
-
+img {
+  max-width: 100%;
+  max-height: auto;
+}
 
 
 
@@ -89,10 +92,6 @@ main div {
 */
 
 /* Article */
-
-/* @font-face {
-  font-family: 'Roboto';
-  src: url(https://fonts.google.com/specimen/Roboto); */
 
 article {
   width: 70%;
