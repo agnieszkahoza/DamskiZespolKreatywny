@@ -72,11 +72,6 @@ nav ul li a:hover {
   width: 100%;
 }
 
-.txt img {
-  text-align: center;
-  flex: 1;
-}
-
 /* Main */
 main {
   display: flex;
@@ -87,13 +82,6 @@ main div {
   display: flex;
   width: calc(100% - 200px);
 }
-
-/*
-main div {
-  display: flex;
-  width: calc(100% - 200px);
-} 
-*/
 
 /* Article */
 article {
