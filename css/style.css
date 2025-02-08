@@ -124,7 +124,7 @@ aside {
 }
 
 .widget {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .widget img {
@@ -132,7 +132,10 @@ aside {
   padding: 0 10px 5px 0;
   /* border: 5px dashed red; */
 }
-
+.button {
+  display: flex;
+  justify-content: center;
+}
 .links ul {
   list-style-type: square;
   margin-left: 20px;
@@ -143,8 +146,17 @@ aside {
   margin-bottom: 10px;
 }
 
-.redTitle {
-  color: greenyellow;
+h3 {
+  font-family: "Papirus", fantasy;
+}
+
+aside button:hover {
+  color: white;
+  background-color: black;
+}
+
+aside p {
+  text-align: justify;
 }
 
 /* Footer */
