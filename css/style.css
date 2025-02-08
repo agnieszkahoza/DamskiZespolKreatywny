@@ -1,6 +1,6 @@
 /* Stylowanie od ogółu czyli od container */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap");
 
 /* *{
     box-sizing: border-box;
@@ -11,7 +11,7 @@
 body {
   margin: 10px 0;
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 #container {
@@ -75,7 +75,6 @@ main {
   display: flex;
 }
 
-
 main div {
   display: flex;
   width: calc(100% - 200px);
@@ -95,6 +94,7 @@ article {
 }
 
 /* Aside */
+
 aside {
   width: 30%;
   max-width: calc(100% - 200px);
@@ -141,6 +141,10 @@ aside {
 
 .links ul li {
   margin-bottom: 10px;
+}
+
+.redTitle {
+  color: greenyellow;
 }
 
 /* Footer */
