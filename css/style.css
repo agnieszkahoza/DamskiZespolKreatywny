@@ -109,7 +109,7 @@ aside {
   /* display: none;} */
 
 .ads {
-  background-color: lightcoral;
+  background-color: rgb(196, 220, 255);
   width: 200px;
   writing-mode: vertical-rl;
   text-align: center;
@@ -118,7 +118,7 @@ aside {
 }
 
 .green {
-  background-color: darkgreen;
+  background-color: rgb(48, 21, 255);
   /* word-wrap: normal; */
   /* zawijanie tekstu w divie */
 }
