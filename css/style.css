@@ -1,13 +1,5 @@
-/* Stylowanie od ogółu czyli od container */
-
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap");
 
-/* *{
-    box-sizing: border-box;
-    
-} */
-
-/* Body */
 body {
   margin: 10px 0;
   font-size: 16px;
@@ -19,15 +11,10 @@ body {
   margin: 0 auto;
 }
 
-
 img {
   max-width: 100%;
   max-height: auto;
 }
-
-
-
-/* Stylowanie menu */
 
 header {
   display: flex;
@@ -56,11 +43,6 @@ nav ul li a:hover {
   background-color: black;
 }
 
-/* Slider */
-/* .slider {
-  display: block;
-} */
-
 .slider div {
   display: flex;
   padding: 30px;
@@ -72,7 +54,6 @@ nav ul li a:hover {
   width: 100%;
 }
 
-/* Main */
 main {
   display: flex;
 }
@@ -81,8 +62,6 @@ main div {
   display: flex;
   width: calc(100% - 200px);
 }
-
-/* Article */
 
 article {
   width: 70%;
@@ -106,8 +85,6 @@ article h1 {
   font-size: 20px;
 }
 
-/* Aside */
-
 aside {
   width: 30%;
   max-width: calc(100% - 200px);
@@ -116,24 +93,16 @@ aside {
   border-left: 3px dotted black;
 }
 
-/* .ads {
-  width: 200px;
-  background-color: red;
-  /* display: none;} */
-
 .ads {
   background-color: rgb(196, 220, 255);
   width: 200px;
   writing-mode: vertical-rl;
   text-align: center;
   font-size: 15pt;
-  /* display: none */
 }
 
 .green {
   background-color: rgb(48, 21, 255);
-  /* word-wrap: normal; */
-  /* zawijanie tekstu w divie */
 }
 
 .widget {
@@ -143,12 +112,14 @@ aside {
 .widget img {
   float: left;
   padding: 0 10px 5px 0;
-  /* border: 5px dashed red; */
 }
-.button {
+
+.moreInfoBtn {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
+
 .links ul {
   list-style-type: square;
   margin-left: 20px;
@@ -172,7 +143,6 @@ aside p {
   text-align: justify;
 }
 
-/* Footer */
 footer {
   background-color: rgb(255, 255, 255);
   border-top: 1px solid rgb(200, 200, 200);
