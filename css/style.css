@@ -71,10 +71,10 @@ article img {
 article h1 {
   color: red;
   font-size: 32px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
- article p {
+article p {
   text-align: justify;
   font-size: 20px;
 }
@@ -148,3 +148,35 @@ footer p {
   margin: 0;
 }
 
+/* Breakpoint 576-768 px */
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  @import url("https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap");
+
+  .ads {
+    display: none;
+  }
+
+  main div {
+    display: flex;
+    width: 100%;
+  }
+
+  nav ul li a {
+    font-size: 10px;
+    color: black;
+    padding: 3px;
+    text-decoration: none;
+  }
+
+  article h1 {
+    font-family: "Winky Rough", sans-serif;
+    font-weight: 900;
+    color: blueviolet;
+  }
+
+  aside {
+    background-color: lightgreen;
+    border-left: 3px dotted rgb(22, 147, 93);
+  }
+}
