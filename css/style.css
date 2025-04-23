@@ -296,15 +296,6 @@ footer p {
     height: auto;
     object-fit: cover;
   }
-}
-/* Breakpoint 576-768 px */
-
-@media screen and (min-width: 576px) and (max-width: 768px) {
-  @import url("https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap");
-
-  .ads {
-    display: none;
-  }
 
   main div {
     display: flex;
@@ -347,8 +338,22 @@ padding-right: 16px;
     align-items: left;
     padding: 8px 8px;
   }
-  nav {
+  .navbar {
     display: none;
+  }
+}
+/* Breakpoint 576-768 px */
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  @import url("https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap");
+
+  .ads {
+    display: none;
+  }
+
+  main div {
+    display: flex;
+    width: 100%;
   }
 
   nav ul li a {
